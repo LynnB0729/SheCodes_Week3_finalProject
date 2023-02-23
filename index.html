@@ -19,8 +19,28 @@
 
       .links {
         text-align: center;
+        margin-bottom: 30px;
       }
 
+      .btn {
+        display: block;
+        padding: 20px 30px;
+        border-radius: 15px;
+        font-size: 30px;
+        color: #f5f5f5;
+        background-color: #53bde9;
+        border: #53bde9;
+        box-shadow: 5px 5px 2px #093548;
+        text-align: center;
+        max-width: 30%;
+        margin: auto;
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background-color:#BB1F18;
+      }
+      
       h1 {
         text-align: center;
         color: #0d1c12;
@@ -36,8 +56,7 @@
       }
 
       hr {
-        width: 80%
-        height: 20px;
+        width: 80%;
       }
 
       img {
@@ -56,12 +75,10 @@
         max-width: 60%;
         color: #0d1c12;
         line-height: 1.5;
-        font-size: 18px;
-        border: #b9dfc6 solid 1px;
         padding: 10px;
         border-radius: 15px;
         font-family: Poppins, sans-serif;
-        font-size: 18px;
+        font-size: 20px;
       }
 
       a {
@@ -71,25 +88,17 @@
         color: #0d1c12;
       }
 
-      input {
-        display: block;
-        margin: 25px auto;
-        padding: 20px 30px;
-        border-radius: 15px;
-        font-size: 30px;
-        color: #f5f5f5;
-        background-color: #53bde9;
-        border: #53bde9;
-        box-shadow: 5px 5px 2px #093548;
+    
 
-      }
+
+
     </style>
   </head>
   <body>
     <div class="mainContainer">
       <h1>Flea Markets</h1>
       <hr />
-      <h2>One Woman's Trash is another Woman's Treasure</h2>
+      <h2>One Woman's <em>Trash</em> is another Woman's <em>Treasure</em></h2>
       <img
         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/831/original/fleaMarket_square.png?1677174132"
       />
@@ -106,18 +115,11 @@
           Join Flea Market Insiders
         </a>
 
-        <a
-          href="https://www.fleamarketinsiders.com/top-20-flea-markets-in-the-us/"
-          >Top 20 Flea Markets</a
-        >
+        <a class="secondLink" href="https://www.fleamarketinsiders.com/top-20-flea-markets-in-the-us/">Top 20 Flea Markets</a>
       </div>
 
       <form>
-        <input
-          type="button"
-          onclick="window.location.href='https://www.encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/flea-markets';"
-          value="Learn More"
-        />
+        <a class="btn" href="https://www.nytimes.com/1983/09/18/nyregion/what-put-the-flea-in-a-market.html">Learn More</a>
       </form>
     </div>
   </body>
